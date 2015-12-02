@@ -103,6 +103,13 @@ $(document).ready(function(){
 
 	});
 
+	$(".popover-item").hover(function(){
+		$(this).addClass('user-bar-item-settings-active');
+	}, function()	{
+		$(this).removeClass('user-bar-item-settings-active');
+
+	});
+
 	
 
 	

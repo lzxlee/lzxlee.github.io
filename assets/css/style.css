@@ -116,7 +116,7 @@ a:hover, a:active { text-decoration: none; }
 	color: white;
     background: #2E2E2E;
     width: 100px;
-    height:100px;
+    height:80px;
  	padding: 10px;
     position: fixed;
     right: 80px;
@@ -132,7 +132,10 @@ a:hover, a:active { text-decoration: none; }
 
 .popover-item{
 	margin-top: 2px;
+	cursor: pointer;
 }
+
+
 
 .cupcake{
 	margin-top:60px;
@@ -188,6 +191,7 @@ a:hover, a:active { text-decoration: none; }
 	margin:14px;
 }
 
+
 .entry-image{
 	width:360px;
 	display: inline-block;
@@ -195,6 +199,17 @@ a:hover, a:active { text-decoration: none; }
 	opacity: 1;
 }
 
+.user{
+	display: inline-block;
+	margin:20px;
+}
+
+.user-image{
+	width:300px;
+	display: inline-block;
+	
+	opacity: 1;
+}
 
 .entry-image-active{
 	opacity:0.4;
@@ -319,6 +334,16 @@ a:hover, a:active { text-decoration: none; }
 	overflow: auto;
 	margin-left: 100px;
 	
+	padding-top: 130px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	z-index: 1;
+}
+
+.content4{
+	overflow: auto;
+	margin-left: 60px;
+	margin-right:60px;
 	padding-top: 130px;
 	font-family: 'Lato', sans-serif;
 	color: white;
