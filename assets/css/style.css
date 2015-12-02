@@ -209,6 +209,8 @@ a:hover, a:active { text-decoration: none; }
 	display: inline-block;
 	
 	opacity: 1;
+	margin-right: 25;
+	margin-left: 25;
 }
 
 .entry-image-active{
@@ -226,6 +228,15 @@ a:hover, a:active { text-decoration: none; }
 	width:100%;
 	color: white;
 	margin-top:5px;
+}
+
+.user-image-option{
+	display: block;
+	font-family: 'Lato', sans-serif;
+	width:100%;
+	color: white;
+	margin-top:5px;
+	margin-left:25px;
 }
 
 .option1{
@@ -341,13 +352,12 @@ a:hover, a:active { text-decoration: none; }
 }
 
 .content4{
-	overflow: auto;
-	margin-left: 60px;
-	margin-right:60px;
-	padding-top: 130px;
-	font-family: 'Lato', sans-serif;
-	color: white;
-	z-index: 1;
+	display: block;
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+
+	
 }
 
 .entry3-and-heart{
