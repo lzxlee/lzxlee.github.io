@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.user-bar-item-settings').click(function(){
+	$(".user-bar-item-settings").click(function(){
 		if ($('.popover').hasClass('popover-active')) {
 			$('.popover').removeClass('popover-active');	
 		} else {
@@ -8,6 +8,37 @@ $(document).ready(function(){
 				$('.popover').addClass('popover-active');
 		}
 	});	
+
+	$('.header2').click(function(){
+		if ($('.popover').hasClass('popover-active')) {
+			$('.popover').removeClass('popover-active');	
+		} 
+	});
+
+	$('.content').click(function(){
+		if ($('.popover').hasClass('popover-active')) {
+			$('.popover').removeClass('popover-active');	
+		} 
+	});
+
+	$('.content2').click(function(){
+		if ($('.popover').hasClass('popover-active')) {
+			$('.popover').removeClass('popover-active');	
+		} 
+	});
+
+	$('.content3').click(function(){
+		if ($('.popover').hasClass('popover-active')) {
+			$('.popover').removeClass('popover-active');	
+		} 
+	});
+
+	$('.search-header').click(function(){
+		if ($('.popover').hasClass('popover-active')) {
+			$('.popover').removeClass('popover-active');	
+		} 
+	});
+	
 
 
 	$(".cupcake-image1").hover(function(){
@@ -63,12 +94,7 @@ $(document).ready(function(){
 
   	});
 
-  	$(".user-bar-item").hover(function(){
-		$(this).addClass('user-bar-item-active');
-	}, function()	{
-		$(this).removeClass('user-bar-item-active');
-
-	});
+  	
 
 	$(".user-bar-item-settings").hover(function(){
 		$(this).addClass('user-bar-item-settings-active');
@@ -77,37 +103,15 @@ $(document).ready(function(){
 
 	});
 
-	$(".option2").hover(function(){
-		$(this).addClass('option-active');
-	}, function()	{
-		$(this).removeClass('option-active');
+	
 
-	});
+	
 
-	$(".option4").hover(function(){
-		$(this).addClass('option-active');
-	}, function()	{
-		$(this).removeClass('option-active');
-
-	});
-
-
-	$(".popover-item").hover(function(){
-		$(this).addClass('option-active');
-	}, function()	{
-		$(this).removeClass('option-active');
-
-	});
+	
 
 
 
-	$(".option6").hover(function(){
-		$(this).addClass('option-active');
-	}, function()	{
-		$(this).removeClass('option-active');
-
-	});
-
+	
 
 		
 });
